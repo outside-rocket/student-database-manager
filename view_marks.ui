@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>831</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>scs</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>math</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>physics</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>chemistry</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>total</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="copy_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>537</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Copy to clipboard</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>537</y>
+      <width>93</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>481</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>rptm1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>froeehgierorhgreoigh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rptm2</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="go_btn">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Go</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="show_analysis">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>537</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Show analysis</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
